@@ -4,7 +4,7 @@
 let today = "11/14/17";
 
 function printDate (date) {
-	return "Today's date is: " + date;
+	return `Today's date is: ${date}`;
 }
 
 //////////////////////////////////////////////////////////////////
@@ -14,7 +14,7 @@ function printDate (date) {
 let x = 5;
 
 function squareNum (num) {
-  return (num + " squared is " + Math.pow(num, 2) + " and not " + Math.pow(num, 3));
+  return (`${num} squared is ${Math.pow(num, 2)} and not ${Math.pow(num, 3)}`);
 }
 
 squareNum(x);
